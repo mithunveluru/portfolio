@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── Primary Meta ── -->
+    <title>Mithun Raghu — CS Engineer & Builder</title>
+    <meta name="description"
+      content="Mithun Raghu Veluru — CS student at VIT Vellore. I build
+      full-stack ML systems, federated learning pipelines, and
+      developer tools. Open to SDE internships 2026." />
+    <meta name="author" content="Mithun Raghu Veluru" />
+    <meta name="theme-color" content="#09090f" />
+
+    <!-- ── Open Graph (LinkedIn / WhatsApp previews) ── -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content="https://mithun.dev/" />
+    <meta property="og:title"       content="Mithun Raghu — CS Engineer & Builder" />
+    <meta property="og:description"
+      content="Full-stack ML systems, federated learning, and developer
+      tools. CS student at VIT Vellore. Open to SDE internships 2026." />
+    <meta property="og:image"       content="/og-image.png" />
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content="Mithun Raghu — CS Engineer & Builder" />
+    <meta name="twitter:description"
+      content="Full-stack ML systems, federated learning, and developer
+      tools. Open to SDE internships 2026." />
+    <meta name="twitter:image"       content="/og-image.png" />
+
+    <!-- ── Canonical ── -->
+    <link rel="canonical" href="https://mithun.dev/" />
+
+    <!-- ── Favicon (inline SVG — zero extra request) ── -->
+    <link rel="icon" href="data:image/svg+xml,
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+        <text y='.9em' font-size='90'>⬡</text>
+      </svg>" />
+
+    <!-- ── Font preconnects (must come before font @import) ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ── Fonts — display=swap prevents FOIT ── -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ── Styles ── -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ── React & Babel via CDN ── -->
+    <script crossorigin
+      src="https://unpkg.com/react@18/umd/react.production.min.js">
+    </script>
+    <script crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js">
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Prevents flash of unstyled content before React renders -->
+    <div id="root">
+      <div style="
+        min-height:100vh;
+        background:#09090f;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      ">
+        <div style="
+          width:32px;height:32px;
+          border:2px solid #1e1e2e;
+          border-top-color:#6366f1;
+          border-radius:50%;
+          animation:spin .7s linear infinite;
+        "></div>
+      </div>
+      <style>
+        @keyframes spin { to { transform: rotate(360deg); } }
+      </style>
+    </div>
+
+    <!-- Components -->
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/About.js"></script>
+    <script type="text/babel" src="components/Projects.js"></script>
+    <script type="text/babel" src="components/Skills.js"></script>
+    <script type="text/babel" src="components/Now.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/Terminal.js"></script>
+    <script type="text/babel" src="app.js"></script>
+
+    <!-- Animations — plain JS, no Babel, loads last -->
+    <script src="animations.js" defer></script>
+  </body>
+</html>
