@@ -9,12 +9,12 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      {/* Top gradient line */}
+      
       <div className="footer__glow" aria-hidden="true" />
 
       <div className="container footer__inner">
 
-        {/* Left — branding */}
+        
         <div className="footer__left">
           <span className="footer__logo">
             mithun<span>.</span>dev
@@ -24,7 +24,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Center — links */}
+        
         <nav className="footer__nav" aria-label="Footer navigation">
           {footerLinks.map(({ label, href }) => (
             <a
@@ -39,7 +39,7 @@ const Footer = () => {
           ))}
         </nav>
 
-        {/* Right — copyright */}
+        
         <div className="footer__right">
           <span className="footer__copy">
             © {year} Mithun Raghu Veluru

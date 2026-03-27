@@ -65,7 +65,7 @@ const About = () => {
     <section id="about" className="section">
       <div className="container">
 
-        {/* Header */}
+        
         <div className="about-header">
           <span className="section-label">01 / about</span>
           <h2 className="section-title">
@@ -74,10 +74,10 @@ const About = () => {
           </h2>
         </div>
 
-        {/* Split layout */}
+        
         <div className="about-grid">
 
-          {/* LEFT — Text block */}
+          
           <div className="about-left">
             <p className="about-lead">
               I'm Mithun — a CS student at VIT Vellore who builds systems
@@ -100,7 +100,7 @@ const About = () => {
               real adversaries, and real users.
             </p>
 
-            {/* Stack pills */}
+            
             <div className="about-stack">
               <span className="about-stack__label">Daily stack</span>
               <div className="about-stack__pills">
@@ -111,7 +111,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* RIGHT — Trait cards */}
+          
           <div className="about-right">
             {traits.map(({ icon, title, description }) => (
               <div key={title} className="trait-card">

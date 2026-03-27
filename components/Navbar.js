@@ -41,12 +41,12 @@ const Navbar = () => {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container navbar-inner">
 
-          {/* Logo */}
+          
           <a href="#hero" className="navbar-logo">
             mithun<span>.</span>dev
           </a>
 
-          {/* Desktop links */}
+          
           <ul className="navbar-links">
             {navLinks.map(({ label, href }) => (
               <li key={href}>
@@ -60,12 +60,12 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Desktop CTA */}
+          
           <a href="#contact" className="navbar-cta navbar-cta--desktop">
             Contact
           </a>
 
-          {/* Hamburger — mobile only */}
+          
           <button
             className={`hamburger ${menuOpen ? 'hamburger--open' : ''}`}
             onClick={() => setMenuOpen(o => !o)}
@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile menu overlay */}
+      
       <div
         className={`mobile-menu ${menuOpen ? 'mobile-menu--open' : ''}`}
         aria-hidden={!menuOpen}

@@ -95,7 +95,7 @@ const Contact = () => {
     <section id="contact" className="section">
       <div className="container">
 
-        {/* ── Header ── */}
+        
         <div className="contact-header">
           <span className="section-label">05 / contact</span>
           <h2 className="section-title">
@@ -110,10 +110,10 @@ const Contact = () => {
 
         <div className="contact-layout">
 
-          {/* ── LEFT ── */}
+          
           <div className="contact-left">
 
-            {/* Availability card */}
+            
             <div className="contact-availability">
               <div className="contact-availability__indicator">
                 <span className="contact-availability__dot" />
@@ -126,7 +126,7 @@ const Contact = () => {
               </p>
             </div>
 
-            {/* Good fit block */}
+            
             <div className="contact-fit">
               <span className="contact-fit__label">Good fit if you need</span>
               <ul className="contact-fit__list">
@@ -144,7 +144,7 @@ const Contact = () => {
               </ul>
             </div>
 
-            {/* Links */}
+            
             <div className="contact-links">
               {links.map(({ label, value, href, meta, icon }) => (
                 <a
@@ -173,7 +173,7 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* Response note */}
+            
             <p className="contact-note">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" strokeWidth="2"
@@ -186,7 +186,7 @@ const Contact = () => {
 
           </div>
 
-          {/* ── RIGHT — Form ── */}
+          
           <div className="contact-right">
             <div className="contact-form-wrap">
 

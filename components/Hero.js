@@ -43,7 +43,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-section">
 
-      {/* Ambient background */}
+      
       <div className="hero-bg" aria-hidden="true">
         <div className="hero-blob hero-blob--1" />
         <div className="hero-blob hero-blob--2" />
@@ -52,13 +52,13 @@ const Hero = () => {
 
       <div className="container hero-container">
 
-        {/* Status badge */}
+        
         <div className="hero-badge">
           <span className="hero-badge__dot" />
           <span>Available for internships · Summer 2026</span>
         </div>
 
-        {/* Headline */}
+        
         <h1 className="hero-headline">
           <span className="hero-headline__line1">I build systems</span>
           <br />
@@ -67,7 +67,7 @@ const Hero = () => {
           <span className="hero-headline__gradient">problems.</span>
         </h1>
 
-        {/* Typewriter */}
+        
         <p className="hero-tagline">
           Currently working on{' '}
           <span className="hero-tagline__typed">
@@ -76,7 +76,7 @@ const Hero = () => {
           </span>
         </p>
 
-        {/* Description — updated to match resume */}
+        
         <p className="hero-description">
           CS student at VIT Vellore (GPA 9.26) with internship experience
           at <strong>Techvaria</strong> and <strong>Hanco Automotive</strong>.
@@ -84,7 +84,7 @@ const Hero = () => {
           backends — things that hold up under real load and real users.
         </p>
 
-        {/* CTAs */}
+        
         <div className="hero-actions">
           <a href="#projects" className="btn btn--primary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -136,7 +136,7 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Stats — updated to match resume */}
+        
         <div className="hero-stats">
           <div className="hero-stat">
             <span className="hero-stat__number">9.26</span>
@@ -161,7 +161,7 @@ const Hero = () => {
 
       </div>
 
-      {/* Scroll indicator */}
+      
       <div className="hero-scroll-hint" aria-hidden="true">
         <span className="hero-scroll-hint__text">scroll</span>
         <div className="hero-scroll-hint__line" />

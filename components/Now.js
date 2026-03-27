@@ -69,7 +69,7 @@ const Now = () => {
     <section id="now" className="section">
       <div className="container">
 
-        {/* Header */}
+        
         <div className="now-header">
           <span className="section-label">04 / now</span>
           <h2 className="section-title">
@@ -83,7 +83,7 @@ const Now = () => {
 
         <div className="now-layout">
 
-          {/* LEFT — Current focus cards */}
+          
           <div className="now-left">
             <div className="now-cards">
               {currentFocus.map(({ icon, label, title, detail, status }) => (
@@ -106,10 +106,10 @@ const Now = () => {
             </div>
           </div>
 
-          {/* RIGHT — Wins + Stack snapshot */}
+          
           <div className="now-right">
 
-            {/* Recent wins */}
+            
             <div className="now-wins">
               <div className="now-wins__header">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
@@ -139,7 +139,7 @@ const Now = () => {
               </div>
             </div>
 
-            {/* Currently open to */}
+            
             <div className="now-open">
               <div className="now-open__header">
                 <span className="now-open__dot" />
@@ -175,7 +175,7 @@ const Now = () => {
               </a>
             </div>
 
-            {/* Last updated */}
+            
             <div className="now-updated">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" strokeWidth="2"

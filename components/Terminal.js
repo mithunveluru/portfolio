@@ -345,7 +345,7 @@ const Terminal = () => {
         className="term-window"
         onClick={e => e.stopPropagation()}
       >
-        {/* ── Title bar ── */}
+        
         <div className="term-bar">
           <div className="term-bar__dots">
             <button
@@ -363,7 +363,7 @@ const Terminal = () => {
           <span className="term-bar__hint">ESC to close</span>
         </div>
 
-        {/* ── Output ── */}
+        
         <div
           className="term-body"
           onClick={() => inputRef.current?.focus()}
@@ -374,7 +374,7 @@ const Terminal = () => {
             </div>
           ))}
 
-          {/* ── Input row ── */}
+          
           <div className="term-input-row">
             <span className="term-ps1">
               <span className="term-ps1__user">mithun</span>

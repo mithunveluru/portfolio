@@ -58,7 +58,7 @@ const Projects = () => {
     <section id="projects" className="section">
       <div className="container">
 
-        {/* ── Header ── */}
+        
         <div className="projects-header">
           <span className="section-label">02 / projects</span>
           <h2 className="section-title">Things I've shipped.</h2>
@@ -68,11 +68,11 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* ── Flagship ── */}
+        
         <div className="project-flagship">
           <div className="project-flagship__inner">
 
-            {/* Left */}
+            
             <div className="project-flagship__left">
               <div className="project-flagship__badges">
                 <span className="project-badge project-badge--flagship">
@@ -121,7 +121,7 @@ const Projects = () => {
               </div>
             </div>
 
-            {/* Right — metrics + terminal */}
+            
             <div className="project-flagship__right">
               <div className="metrics-panel">
                 <span className="metrics-panel__label">Key Outcomes</span>
@@ -134,7 +134,7 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* Terminal block */}
+              
               <div className="terminal-block">
                 <div className="terminal-block__bar">
                   <span className="terminal-dot terminal-dot--red"    />
@@ -175,7 +175,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* ── Project cards grid ── */}
+        
         <div className="projects-grid">
           {PROJECTS.map((project, i) => (
             <div

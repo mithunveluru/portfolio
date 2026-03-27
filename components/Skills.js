@@ -137,7 +137,7 @@ const Skills = () => {
     <section id="skills" className="section">
       <div className="container">
 
-        {/* Header */}
+        
         <div className="skills-header">
           <span className="section-label">03 / skills</span>
           <h2 className="section-title">
@@ -149,13 +149,13 @@ const Skills = () => {
           </p>
         </div>
 
-        {/* Two-column layout: skill groups + timeline */}
+        
         <div className="skills-layout">
 
-          {/* LEFT — Skill groups */}
+          
           <div className="skills-left">
 
-            {/* Tab selector */}
+            
             <div className="skills-tabs" role="tablist">
               {skillGroups.map(group => (
                 <button
@@ -171,7 +171,7 @@ const Skills = () => {
               ))}
             </div>
 
-            {/* Active group skill bars */}
+            
             {skillGroups
               .filter(g => g.id === activeGroup)
               .map(group => (
@@ -183,7 +183,7 @@ const Skills = () => {
               ))}
           </div>
 
-          {/* RIGHT — Timeline */}
+          
           <div className="skills-right">
             <span className="skills-timeline-heading">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
