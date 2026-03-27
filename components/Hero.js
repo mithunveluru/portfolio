@@ -5,11 +5,11 @@ const Hero = () => {
   const [isDeleting,  setIsDeleting]  = React.useState(false);
 
   const phrases = [
+    'backends that hold up.',
     'systems that scale.',
-    'ML pipelines that ship.',
-    'security-first backends.',
-    'tools engineers love.',
-    'distributed architectures.',
+    'APIs engineers trust.',
+    'software that ships.',
+    'problems worth solving.',
     'things that actually work.',
   ];
 
@@ -43,7 +43,6 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-section">
 
-      
       <div className="hero-bg" aria-hidden="true">
         <div className="hero-blob hero-blob--1" />
         <div className="hero-blob hero-blob--2" />
@@ -52,39 +51,40 @@ const Hero = () => {
 
       <div className="container hero-container">
 
-        
+        {/* Status badge */}
         <div className="hero-badge">
           <span className="hero-badge__dot" />
-          <span>Available for internships · Summer 2026</span>
+          <span>Available for SDE internships · Summer 2026</span>
         </div>
 
-        
+        {/* Headline */}
         <h1 className="hero-headline">
-          <span className="hero-headline__line1">I build systems</span>
+          <span className="hero-headline__line1">I write code</span>
           <br />
-          <span className="hero-headline__line2">that solve real</span>
+          <span className="hero-headline__line2">that solves real</span>
           <br />
           <span className="hero-headline__gradient">problems.</span>
         </h1>
 
-        
+        {/* Typewriter */}
         <p className="hero-tagline">
-          Currently working on{' '}
+          Currently building{' '}
           <span className="hero-tagline__typed">
             {displayText}
             <span className="hero-cursor" aria-hidden="true">|</span>
           </span>
         </p>
 
-        
+        {/* Description — SDE focused, personal */}
         <p className="hero-description">
-          CS student at VIT Vellore (GPA 9.26) with internship experience
-          at <strong>Techvaria</strong> and <strong>Hanco Automotive</strong>.
-          I build end-to-end ML systems, data pipelines, and security-aware
-          backends — things that hold up under real load and real users.
+          I'm Mithun — CS student at <strong>VIT Vellore</strong> (GPA 9.26),
+          with hands-on internship experience at <strong>Techvaria</strong> and{' '}
+          <strong>Hanco Automotive</strong>. I build full-stack applications,
+          REST APIs, and data systems — and I care deeply about writing
+          software that's clean, fast, and actually useful.
         </p>
 
-        
+        {/* CTAs */}
         <div className="hero-actions">
           <a href="#projects" className="btn btn--primary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -136,7 +136,7 @@ const Hero = () => {
           </a>
         </div>
 
-        
+        {/* Stats */}
         <div className="hero-stats">
           <div className="hero-stat">
             <span className="hero-stat__number">9.26</span>
@@ -161,7 +161,6 @@ const Hero = () => {
 
       </div>
 
-      
       <div className="hero-scroll-hint" aria-hidden="true">
         <span className="hero-scroll-hint__text">scroll</span>
         <div className="hero-scroll-hint__line" />
