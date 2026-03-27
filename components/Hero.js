@@ -58,13 +58,13 @@ const Hero = () => {
         </div>
 
         {/* Headline */}
-        <h1 className="hero-headline">
-          <span className="hero-headline__line1">I write code</span>
-          <br />
-          <span className="hero-headline__line2">that solves real</span>
-          <br />
-          <span className="hero-headline__gradient">problems.</span>
-        </h1>
+          <h1 className="hero-headline">
+            <span className="hero-headline__line1">I build systems</span>
+            <br />
+            <span className="hero-headline__line2">that solve real</span>
+            <br />
+            <span className="hero-headline__gradient">problems.</span>
+          </h1>
 
         {/* Typewriter */}
         <p className="hero-tagline">
